@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Say Hello</button>
+    <script>
+        const btn = document.querySelector('button')//selecting the class,id or element to perform
+        //button do something
+        btn.addEventListener('click',function(){//to help button response and how
+            // console.log("Hello")
+            const headingElement=document.createElement('h4')//wan to create new heading
+            //const headingElement =document.createElement('h4').innerText="Hello"=> this will not work because in creation phase only we declared this
+            headingElement.innerText="hello"
+            console.log(headingElement)
+            //to link h4 in the web so it is visible
+            const bodyElement = document.querySelector('body')
+            //appending or adding something
+            bodyElement.appendChild(headingElement)//parent element is appending a child element
+        })
+    </script>
+</body>
+</html>
