@@ -64,4 +64,13 @@ It doesn’t expand the span
 
 Being “independent” means:
 You get a new direction
+You expand the space you can reach
  */
+
+ /*
+⭐ The 4 standard basis vectors in R⁴ are:
+👉 e₁ = (1, 0, 0, 0)
+👉 e₂ = (0, 1, 0, 0)
+👉 e₃ = (0, 0, 1, 0)
+👉 e₄ = (0, 0, 0, 1)
+  */
