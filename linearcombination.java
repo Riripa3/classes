@@ -74,3 +74,13 @@ You expand the space you can reach
 👉 e₃ = (0, 0, 1, 0)
 👉 e₄ = (0, 0, 0, 1)
   */
+
+/*
+⭐ So normalization changes:
+✔️ The length (magnitude)
+
+It becomes exactly 1.
+❌ NOT the direction
+
+The arrow still points in the same direction, just shorter or longer.
+*/
