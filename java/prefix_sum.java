@@ -7,3 +7,9 @@ After that, every query is O(1) — instant.
 This is the entire reason prefix sum exists.
  */
 //𝐴[𝑖]=𝑝𝑟𝑒𝑓[𝑖]−𝑝𝑟𝑒𝑓[𝑖−1]
+
+for(int i=0;i<A.length;i++){
+    for(int j=i;j<A.length;j++){
+        
+    }
+}

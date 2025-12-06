@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --primary-bg: #1a1d29;
+}
+
+.Nav-bar{
+    background-color: var(--primary-bg);
+    height:5rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toolbox-priority-cont{
+    display:flex;
+    align-items: center;
+}
+.color-filters{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem;
+}
+.color{
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 4px;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+    background-color: black;
+}
+
+.action-btn-cont{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.add-btn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 10px;
+    height: 4rem;
+    width: 4rem;
+    background-color: green;
+    border-radius: 20%;;
+}
+.remove-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    height: 3rem;
+    width: 4rem;
+    background-color: red;
+    border-radius: 20%;
+}
